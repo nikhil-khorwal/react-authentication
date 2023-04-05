@@ -1,0 +1,36 @@
+.login-control {
+  margin-bottom: 1rem;
+  display: flex;
+  width: 18vw;
+  min-width: 350px;
+  flex-direction: column;
+}
+
+.login-control label {
+  font-size: .8rem;
+  color: rgba(0, 0, 0, .6);
+  margin-bottom: .3rem;
+}
+
+.login-control input {
+  outline: none;
+  border: .12rem solid rgba(0, 53, 69, .2);
+  background-color: #fff;
+  padding: .5rem;
+  color: rgba(0, 53, 69, 1)
+}
+
+
+
+
+/* .login-control input:focus {
+  border: .12rem solid rgba(0, 53, 69, .7);
+} */
+
+.login-control .invalid {
+  border: 1px solid red;
+}
+
+.login-control .invalid:focus {
+  border: 1px solid red;
+}

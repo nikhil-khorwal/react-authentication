@@ -1,0 +1,152 @@
+.login-form {
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    padding: 1.5rem 1.5rem;
+    background-color: #fff;
+    border: .13rem solid rgba(0, 53, 69, .1);
+    display: flex;
+    flex-direction: column;
+}
+
+.login-img {
+    align-self: center;
+    width: 3rem;
+    margin-bottom: 1rem;
+}
+
+.summary h2 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    color: rgba(0, 53, 69, .8);
+
+}
+
+.summary p {
+    font-size: .8rem;
+    color: rgba(0, 53, 69, .6);
+    margin-bottom: 1.5rem;
+}
+
+.social-buttons {
+    align-self: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 49%);
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.social-button {
+    cursor: pointer;
+    border: .12rem solid rgba(0, 53, 69, .7);
+    background-color: #fff;
+    padding: .5rem 1rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: rgba(0, 53, 69, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-button img {
+    width: 1.1rem;
+    margin-right: .2rem;
+}
+
+.or-login-text {
+    font-size: .7rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .35);
+    margin-bottom: 1.2rem;
+}
+
+.or-login-text ::before {
+    content: "";
+    width: 200px;
+    height: 2px;
+    background-color: rgba(0, 53, 69, .1);
+}
+
+.login-control {
+    margin-bottom: 1rem;
+    display: flex;
+    width: 18vw;
+    min-width: 350px;
+    flex-direction: column;
+}
+
+.login-control label {
+    font-size: .8rem;
+    color: rgba(0, 0, 0, .6);
+    margin-bottom: .3rem;
+}
+
+.login-control input {
+    outline: none;
+    border: .12rem solid rgba(0, 53, 69, .2);
+    background-color: #fff;
+    padding: .5rem;
+    color: rgba(0, 53, 69, 1)
+}
+
+.login-control input:focus {
+    border: .12rem solid rgba(0, 53, 69, .7);
+}
+
+.reset-links {
+    margin-top: .4rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reset-links label {
+    font-size: .8rem;
+    color: rgba(0, 0, 0, .8);
+    margin-bottom: .3rem;
+    margin-left: .5rem;
+}
+
+.reset-links a {
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: rgba(0, 53, 69, .8);
+    font-size: .8rem;
+}
+
+.error-message {
+    text-align: end;
+    color: red;
+    font-size: .7rem;
+    margin-bottom: .3rem;
+}
+
+.signup-link {
+    align-items: center;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-link p {
+    font-size: .8rem;
+    color: rgba(0, 0, 0, .6);
+    margin-bottom: .3rem;
+}
+
+.signup-link p:nth-child(2) {
+    cursor: pointer;
+    margin-left: .3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: rgba(0, 53, 69, .8);
+    font-size: .8rem;
+}
